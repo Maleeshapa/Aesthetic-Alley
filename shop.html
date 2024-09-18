@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- icon bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- icon bootstrap -->
+
+    <title>Aesthetic Alley</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
+    <!-- my css code -->
+    <link rel="stylesheet" href="./css.css">
+    <link rel="stylesheet" href="./shop.css">
+
+    <!-- fonts -->
+    <link href="https://fonts.cdnfonts.com/css/agencyfb-black-comp" rel="stylesheet">
+
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <style>
+        .shopping-icon {
+            font-size: 22px;
+            /* Set the size of the icon */
+            color: white;
+            /* Set the color of the icon */
+        }
+    </style>
+</head>
+
+<body>
+    </head>
+
+    <body cz-shortcut-listen="true">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/Logo.png" width="180" height="60" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link mr-2  " href="index.php">Home |</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mr-2 active" href="shop.html">Shop |</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mr-2" href="about.html">About |</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mr-2" href="#">Help |</a>
+                        </li>
+                        <li>
+                            <a href="cart.html"><i class="bi bi-bag-heart shopping-icon"> </i></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <section style="background-image: url('./images/bg1.png'); background-size: cover;">
+            <div class="container">
+
+
+                <br>
+                <h1><u>B o t t l e  A r t s</u></h1>
+                <br><br><br>
+
+                <!-- bottle art starts  -->
+                <section class="products" id="products">
+
+                    <div class="box-container">
+
+                        <div class="box">
+                            <span class="discount">-10%</span>
+                            <div class="image">
+                                <img src="images/art/l20.jpg" alt="bottle arts1">
+                                <div class="icons">
+                                    <button class="cart-btn" onclick="addToCart('bottle-arts-1', 'Bottle Art', 2200)"> add to cart </button>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h4>Bottle Art</h4>
+                                <div class="price">Rs. 2200 <span>Rs. 4000</span></div>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <span class="discount">-15%</span>
+                            <div class="image">
+                                <img src="images/art/1 (4).jpeg" alt="bottle arts2">
+                                <div class="icons">
+                                    <button class="cart-btn" onclick="addToCart('bottle-arts-2','Bottle Art 2',3200)"> add to cart </button>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h4>Bottle Art</h4>
+                                <div class="price">Rs. 3200 <span>Rs. 5000</span></div>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <span class="discount">-5%</span>
+                            <div class="image">
+                                <img src="images/art/1 (7).jpeg" alt="bottle arts3">
+                                <div class="icons">
+                                    <button class="cart-btn" onclick="addToCart('bottle-arts-3','Bottle Art 3',3200)"> add to cart </button>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h4>Bottle Art</h4>
+                                <div class="price">Rs. 3200 <span>Rs. 5000</span></div>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <span class="discount">-20%</span>
+                            <div class="image">
+                                <img src="images/art/1 (5).jpg" alt="bottle arts4">
+                                <div class="icons">
+                                    <button class="cart-btn" onclick="addToCart('bottle-arts-4','Bottle Art 4',3200)"> add to cart </button>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h4>Bottle Art</h4>
+                                <div class="price">Rs. 3200 <span>Rs. 5000</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <br><br><br>
+                <h1><u>C a r t o o n A r t s</u></h1>
+                <br><br><br><br>
+
+                <!-- cartons starts  -->
+                <section class="products" id="products">
+
+                    <div class="box-container">
+
+                        <div class="box">
+                            <span class="discount">-10%</span>
+                            <div class="image">
+                                <img src="images/art/1 (1).jpg" alt="cartoon arts1">
+                                <div class="icons">
+                                    <button class="cart-btn" onclick="addToCart('cartoon-arts-1','Cartoon Art 1',2200)"> add to cart </button>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h4>Cartoon Art</h4>
+                                <div class="price">Rs. 2200 <span>Rs. 4000</span></div>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <span class="discount">-15%</span>
+                            <div class="image">
+                                <img src="images/art/97.jpeg" alt="cartoon arts2">
+                                <div class="icons">
+                                    <button class="cart-btn" onclick="addToCart('cartoon-arts-2','Cartoon Art 2',3200)"> add to cart </button>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h4>Cartoon Art</h4>
+                                <div class="price">Rs. 3200 <span>Rs. 5000</span></div>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <span class="discount">-5%</span>
+                            <div class="image">
+                                <img src="images/art/IMG_5932.jpg" alt="cartoon arts3">
+                                <div class="icons">
+                                    <button class="cart-btn" onclick="addToCart('cartoon-arts-3','Cartoon Art 3',3200)"> add to cart </button>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h4>Cartoon Art</h4>
+                                <div class="price">Rs. 3200 <span>Rs. 5000</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <br><br><br>
+                <h1><u>L i n e A r t s</u></h1>
+                <br><br><br><br>
+
+                <!-- line starts  -->
+                <section class="products" id="products">
+
+                    <div class="box-container">
+
+                        <div class="box">
+                            <span class="discount">-15%</span>
+                            <div class="image">
+                                <img src="images/art/l1.jpeg" alt="line arts1">
+                                <div class="icons">
+                                    <button class="cart-btn" onclick="addToCart('line-arts-1','Line Art 1',3200)"> add to cart </button>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h4>Line Art</h4>
+                                <div class="price">Rs. 3200 <span>Rs. 5000</span></div>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <span class="discount">-5%</span>
+                            <div class="image">
+                                <img src="images/art/pramesh.jpg" alt="line arts2">
+                                <div class="icons">
+                                    <button class="cart-btn" onclick="addToCart('line-arts-2','Line Art 2',3200)"> add to cart </button>
+                                </div>
+                            </div>
+                            <div class="content">
+                                <h4>Line Art</h4>
+                                <div class="price">Rs. 3200 <span>Rs. 5000</span></div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </section>
+                <br><br>
+
+            </div>
+        </section>
+        <footer class="my-2 pt-0 text-muted text-center text-small">
+            <p class="mb-1">© 2024</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Privacy</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Support</a></li>
+            </ul>
+        </footer>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"></script>
+
+            <script src="cart.js"></script>
+
+
+
+    </body>
+
+</html>
